@@ -1,7 +1,8 @@
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import {
-  createBrowserRouter,
+
+  createHashRouter,
   createRoutesFromElements,
   Route,
   RouterProvider,
@@ -20,7 +21,7 @@ import PieChart from "./page/pieChart/PieChart";
 import LineChart from "./page/lineChart/LineChart";
 import GeographyChart from "./page/geographyChart/GeographyChart";
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index element={<Dashboard />} />

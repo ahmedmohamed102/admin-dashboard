@@ -2,6 +2,7 @@
   "name": "admin-dashoprd",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://ahmedmohamed102.github.io/admin-dashboard",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,9 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
-  "homepage": "https://ahmedmohamed102.github.io/admin-dashboard",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
